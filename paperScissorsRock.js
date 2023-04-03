@@ -62,9 +62,17 @@ function playGame() {
   alert(`${result} Player Choice: ${playerChoice}, Computer Choice: ${computerChoice}`);
   alert(`Player Score: ${playerScore}, Computer Score: ${computerScore}.`);
   }
-  if (playerScore == 3) {alert(`Player Wins the game! Player Score: ${playerScore}.`);}
+  if (playerScore == 3) {alert(`Player Wins the game! Player Score: ${playerScore}.`);
+  playerScore = 0;
+  computerScore = 0;
+  playGame();
+}
 
-  else if (computerScore == 3) {alert(`Computer Wins the game! Computer Score: ${computerScore}.`);}
+  else if (computerScore == 3) {alert(`Computer Wins the game! Computer Score: ${computerScore}.`);
+  playerScore = 0;
+  computerScore = 0;
+  playGame();
+}
 }
 
 
