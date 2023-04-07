@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'CedarvilleCursive';
+    src: url('DancingScript-VariableFont_wght.ttf') format('truetype');
+  }
+
+
+body {
+    background-image: url("images/background.jpg");
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.imageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.title {
+    font-family: 'CedarvilleCursive';
+    font-size: xx-large;
+
+}
+h4, h3 {
+    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: 'CedarvilleCursive';
+    font-weight: 200;
+}
+
+h4 {
+    font-style: italic;
+}
+
+h2 {
+    font-size: xx-large;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-family: 'CedarvilleCursive';
+    font-weight: 600;
+}
